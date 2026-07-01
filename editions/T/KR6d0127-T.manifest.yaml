@@ -1,0 +1,68 @@
+canonical_identifier: bkk:krp/KR6d0127/T/v1
+canonical_location: https://kanripo.org/bkk/KR6d0127/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 妙法蓮華經論優波提舍
+  identifiers:
+    krp: KR6d0127
+    cbeta: T26n1520
+    cbeta_old_id: T26n1520
+    authorityid: CA0002225
+    json_key: T1520
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T26/T26n1520.xml
+    old_id: T26n1520
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0127_000-T.yaml, hash: 'sha256:f4948c13e0da9c302e26bf8fbe80e9d9053d5478838e1bcca1c317247fca5d3c'}
+  - {seq: 1, filename: KR6d0127_001-T.yaml, hash: 'sha256:579f55ea2056eb2ee238cdc0805a8935a7d40600ad0f83f3bb7251c1e8445414'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0127_000-T.markers.yaml, hash: 'sha256:e7e26132dc64b17af1f63952bc0712fd68e5479c89425f9362b6606525604a9d'}
+  - {seq: 1, role: markers, filename: assets/KR6d0127_001-T.markers.yaml, hash: 'sha256:0f80eb3fd4056531d27bd05a5477321e7f05d3d16029b2ea598f9e33af52e333'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0127_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11504
+  label: 妙法蓮華經論優波提舍
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0127_T_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 1 序品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0127_T_001-mulu-2
+    span:
+    - body
+    - 4306
+    - 4306
+  label: 2 方便品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0127_T_001-mulu-3
+    span:
+    - body
+    - 8449
+    - 8449
+  label: 3 譬喻品
+  type: mulu
+  level: 1
+hash: sha256:19e1460d3a1597bd166653b71dd3cfcd2b00510b1e497bdcd171a30724c1c39d

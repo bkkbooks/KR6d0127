@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6d0127/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 妙法蓮華經論優波提舍
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T26/T26n1520.xml
+    old_id: T26n1520
+hash: sha256:f4948c13e0da9c302e26bf8fbe80e9d9053d5478838e1bcca1c317247fca5d3c

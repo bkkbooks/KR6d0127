@@ -1,0 +1,90 @@
+canonical_identifier: bkk:krp/KR6d0127/v1
+canonical_location: https://kanripo.org/bkk/KR6d0127/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 妙法蓮華經論優波提舍
+  identifiers:
+    alt_id:
+    - T26n1520
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T26/T26n1520.xml
+    old_id: T26n1520
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 宮
+  label: 宮
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit5
+- short: 磧-CB
+  label: 磧-CB
+  source_xml_id: wit6
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0127_000.yaml, hash: 'sha256:f4948c13e0da9c302e26bf8fbe80e9d9053d5478838e1bcca1c317247fca5d3c'}
+  - {seq: 1, filename: KR6d0127_001.yaml, hash: 'sha256:e5ca1b4f47396c2c13a40a2dc53c37292b458873c0a3e2dbaab7826f717892d6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0127_001.markers.yaml, hash: 'sha256:3a8d268224416fcff9168f20e7db09134d875e66136c3f26bf164ba95378f2ad'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0127_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11504
+  label: 妙法蓮華經論優波提舍
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0127_T_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 1 序品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0127_T_001-mulu-2
+    span:
+    - body
+    - 4306
+    - 4306
+  label: 2 方便品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0127_T_001-mulu-3
+    span:
+    - body
+    - 8449
+    - 8449
+  label: 3 譬喻品
+  type: mulu
+  level: 1
+hash: sha256:8e4ef7dc42fdc679140794df8a7343654e8bf3abb50021e37dd427dcdc3e154e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
